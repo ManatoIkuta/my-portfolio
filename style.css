@@ -1,0 +1,85 @@
+body {
+  font-family: "Avenir Next";
+}
+
+.header {
+  display: flex;
+  background-color: aqua;
+  color: black;
+  height: 60px;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 28px;
+  padding-left: 20px;
+}
+
+.main {
+  background-image: url(background137.png);
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portforio {
+  height: 80vh;
+  width: 80vw;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.portforio-profile-name {
+  padding: 20px;
+}
+
+.portforio-profile-name-ja {
+  display: flex;
+  font-size: 70px;
+  justify-content: center;
+}
+
+.portforio-profile-name-en {
+  display: flex;
+  font-size: 28px;
+  justify-content: center;
+}
+
+.portforio-profile-detail {
+  font-size: 20px;
+}
+
+.portforio-profile-detail-title {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  color: white;
+  height: 40px;
+  justify-content: end;
+  align-items: center;
+}
+
+.footer-list {
+  padding-right: 20px;
+}
+
+.footer-logo {
+  padding-right: 20px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+  font-weight: bold;
+}
